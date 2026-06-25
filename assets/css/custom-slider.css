@@ -1,0 +1,81 @@
+.hero-swiper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-swiper .swiper-slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tp-hero-area {
+    position: relative;
+    min-height: 850px;
+    overflow: hidden;
+}
+
+.tp-hero-area::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 1;
+}
+
+.tp-hero-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+ .tp-city-tour-slider-thumb{
+    position: relative;
+}
+
+.tp-slider-overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    z-index: 9;
+    padding: 0 20px;
+}
+
+.tp-slider-title{
+    color: #fff;
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.tp-slider-desc{
+    color: #fff;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.tp-city-tour-slider-thumb::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.tp-slider-overlay-content{
+    z-index: 2;
+}
+.tp-related-attractions-slider {
+    overflow: hidden;
+}
+
+.tp-related-attractions-slider .swiper-slide {
+    height: auto;
+}
